@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionActivity">
+    <TextView
+        android:id="@+id/step1View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 1:\nCognitive Test"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/list_row"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/step2View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step1View"
+        android:text="Step 2:\nVerbal Test"
+        android:background="@drawable/list_row"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/step3View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step2View"
+        android:text="Step 3:\nASD Test which must be done by the parents/relatives"
+        android:background="@drawable/list_row"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/step4View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step3View"
+        android:text="Step 4:\nThis contains patients personal information"
+        android:background="@drawable/list_row"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerbalQuizActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question to answer:"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/verbalQuestionView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textStyle="normal|bold"
+        android:background="@drawable/text_back"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/vImgView"
+        android:layout_width="101dp"
+        android:layout_height="108dp"
+        android:layout_below="@id/verbalQuestionView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/varbal" />
+
+
+    <Button
+        android:id="@+id/verbalChoice1View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/vImgView"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/verbalChoice2View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/verbalChoice1View"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/verbalChoice3View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/verbalChoice2View"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/verbalChoice4View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verbalChoice3View"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+</RelativeLayout>

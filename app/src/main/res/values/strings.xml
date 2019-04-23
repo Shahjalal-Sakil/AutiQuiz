@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Autism</string>
+
+    <string-array name="list_array">
+        <item>Self</item>
+        <item>Parent</item>
+        <item>Relative</item>
+        <item>Health care professionals</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

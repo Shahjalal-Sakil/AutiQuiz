@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ASDQuizActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question to answer:"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/questionView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textStyle="normal|bold"
+        android:background="@drawable/text_back"/>
+
+
+    <Button
+        android:id="@+id/choice1View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/questionView"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/choice2View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/choice1View"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/choice3View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/choice2View"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/choice4View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choice3View"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/option_view"
+        android:padding="8dp"
+        android:text="A"
+        android:textColor="#000000" />
+
+</RelativeLayout>
